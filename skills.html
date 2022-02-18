@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="certification.html">CERTIFICATION</a></li>
+                    <li><a href="skills.html">SKILL</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Skills & projects</h1>
+    </section>
+
+    <!-- about us content -->
+    <section>
+        <h2>SKILLS SET</h2>
+        <table>
+            <tr>
+                <td>Languages</td>
+                <td>C,C++,Python</td>
+            </tr>
+            <tr>
+                <td>Web Technologies</td>
+                <td>HTML ,CSS,JAVASCRIPT</td>
+            </tr>
+            <tr>
+                <td>Back End</td>
+                <td>MySql</td>
+            </tr>
+            <tr>
+                <td>Platform</td>
+                <td>Windows</td>
+            </tr>
+            <tr>
+                <td>Tools</td>
+                <td>Jupyter Notebook,Google Colab,Visual Studio Code</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- project section -->
+
+    <section class="project">
+        <h2>PROJECTS</h2>
+        <div class="project1">
+            <h3>Malware Detection App</h3>
+            <p>I have build multiple machine learning models to classify a sample as benign - 0 or malware – 1 using the
+                given dataset. The dataset is related to Portable Executable files for malware detection. and by using Streamlit, I
+                have deploy the model by using Heroku app</p>
+        </div>
+        <div class="project2">
+            <h3>Laptop Price Prediction</h3>
+            <p>By using regression analysis to predict the price of a laptop based on its components by taking all the
+                input parameters. By using Linear Regression I have got 100% accuracy and I have done lot of EDA and finally I
+                got 100% accuracy and I have done DATA VISUALISATION also.</p>
+        </div>
+        <div class="project3">
+            <h3>Diabetes Predictions</h3>
+            <p>dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The
+                objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain
+                diagnostic measurements included in the dataset. By using Logistic Regression i have predicted that patients has
+                diabetes or not based on given data set, and I got 76% accuracy score.
+                </p>
+        </div>
+        <div class="project4">
+            <h3>Digit Classification</h3>
+            <p>The dataset is about to identify digit classification using the SVM algorithm.by using SVM algorithm I
+                have identify digit classification and I got accuracy of 90%.</p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About me</h4>
+        <p>I am self-disciplined and extremely motivated to constantly work on developing my skills to come up <br> with innovative ideas and grow professionally.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Santhosh kumar karamthot</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
